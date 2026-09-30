@@ -1,6 +1,6 @@
 module "resource_group" {
   source = "../../Module/azurerm_resource_group"
-  rgs    = var.Rg
+  #rgs    = var.Rg
 }
 
 module "Vnet" {

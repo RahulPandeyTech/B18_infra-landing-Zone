@@ -1,6 +1,6 @@
-variable "Rg" {
+# variable "Rg" {
 
-}
+# }
 variable "vnets" {
 
 }

@@ -1,9 +1,9 @@
-Rg = {
-  Rg1 = {
-    name     = "dev-rg-01"
-    location = "central india"
-  }
-}
+# Rg = {
+#   Rg1 = {
+#     name     = "dev-rg-01"
+#     location = "central india"
+#   }
+# }
 vnets = {
 
   vnet1 = {
@@ -37,10 +37,10 @@ pips = {
 }
 vm = {
   vm1 = {
-    name                = "linux_vm"
+    name                = "fronted-ngnix-vm"
     resource_group_name = "dev-rg-01"
-    location            = "central india"
-    size                = "Standard_D2s_v3"
+    location            = "centralindia"
+    size                = "Standard_D2lds_v5"
     admin_username      = "adminuser"
     nic_name = "nic_vm"
     username            = "adminuser"
